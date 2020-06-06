@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #3d4747;
+}
+
+#block-body{
+	width: 1035px;
+	margin: 5px auto;
+	height: auto;
+}
+header{
+	width: 1035px;
+	height: 80px;
+	background-color:  black;
+}
+
+.logo{
+	width: 200px;
+	float: left;
+	height: 80px;
+
+
+}
+.logo a{
+	display: block;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: "Exo2-Bold", sans-serif;
+	font-size: 28px;
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+}
+/*Receipt */
+.use{
+	color: #7bdb4b;
+}
+/*Scan */
+.web{
+	color: #f2b36b;
+}
+.logo p{
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: white;
+}
+
+/*log in sign up*/
+.top-menu {
+	width: 685px;
+	height: 80px;
+	float: left;
+
+}
+
+.top-menu ul li {
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+/*hedear menu*/
+.top-menu ul li a{
+	display: block;
+	width: 171px;
+	text-decoration: none;
+	font-family: cursive;
+	font-size: 17px;
+	color: #03c8ff;
+	height: 55px;
+	padding-top:25px;
+	cursor: pointer; 
+}
+
+.block-top-auth{
+	width: 100px;
+	float: left;
+	margin-left: 40px;
+	height: 80px;
+}
+.block-top-auth p {
+	margin-top: 12px;
+	text-align: center;
+	margin-bottom: 8px;
+
+}
+.block-top-auth a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	cursor:pointer;
+	text-decoration: underline;
+}
+
+.block-top-auth a:hover {
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	color: #f52525;
+}
+
+.top-menu ul li a:hover {
+	background: #520380;
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
